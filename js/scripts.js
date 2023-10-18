@@ -6,11 +6,11 @@ let pokemonRepository = (function () {
     { name: "Metapod", height: 0.7, type: ["bug"] },
     { name: "Rattata", height: 0.3, type: ["field"] },
   ];
-  function showDetails(pokemon){
-   console.log()
-  }; 
-  
 
+ function showDetails(pokemon) { 
+  console.log(pokemon.target.innerText); 
+}
+  
   function addListItem(pokemon) {
     let element = document.querySelector(".pokemon-list");
     let listItem = document.createElement("li");
@@ -21,8 +21,6 @@ let pokemonRepository = (function () {
     button.addEventListener('click', showDetails);
   };
 
-
-  
   return {
     getAll: function () {
       return pokemonList;
@@ -30,7 +28,7 @@ let pokemonRepository = (function () {
     add: function (item) {
       pokemonList.push(item);
     },
-    addListItem,
+    addListItem: addListItem
   };
 })();
 
@@ -42,4 +40,3 @@ console.log(
 pokemonRepository.getAll().forEach(function (pokemon) {
   pokemonRepository.addListItem(pokemon);
 });
-
