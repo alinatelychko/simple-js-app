@@ -54,6 +54,8 @@ ul {
     max-width: 400px;
     text-align: left;
     background-color: #c6e3f7;
+    position: absolute;
+    inset: 20px;
 }
 
 .modal-close {
