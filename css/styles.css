@@ -18,11 +18,11 @@ ul {
     text-align: center;
 }
 
-#modal-container {
+/* #modal-container {
     display: none;
-}
+} */
 
-#modal-container.is-visible {
+/* #modal-container.is-visible {
 
     position: fixed;
     padding: 20px;
@@ -34,17 +34,17 @@ ul {
     background: rgba(0, 0, 0, 0.5);
 
     /* to show it above other content */
-    z-index: 999;
+    /* z-index: 999;
 
-    /* to allow scrolling if the screen is not high enough*/
+    to allow scrolling if the screen is not high enough
     overflow: auto;
 
     /* this is used to center the modal */
-    display: grid;
+    /* display: grid;
     text-align: center;
-}
+} */ 
 
-.modal {
+/* .modal {
     margin: auto;
     display: inline-block;
     box-sizing: border-box;
@@ -56,9 +56,9 @@ ul {
     background-color: #c6e3f7;
     position: absolute;
     inset: 20px;
-}
+} */
 
-.modal-close {
+/* .modal-close {
     float: right;
     -webkit-appearance: none;
     border: 0;
@@ -73,7 +73,7 @@ ul {
 
 .modal p {
     margin-bottom: 0;
-}
+} */ */
 
 #image-container {
     position: absolute;
